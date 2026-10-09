@@ -1,0 +1,26 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c246a5ef-2c6b-40e1-beb7-846e206cf801",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T18:49:52-07:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.41.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "40fd3ffc77b1629a",
+      "type": "file",
+      "name": "Boring Notch.app",
+      "version": "4849de3"
+    }
+  }
+}

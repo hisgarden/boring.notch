@@ -1,0 +1,551 @@
+{
+  "$schema": "http://cyclonedx.org/schema/bom-1.6.schema.json",
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c0bed282-b428-4e15-878d-74cf33b3301a",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T18:49:51-07:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "anchore",
+          "name": "syft",
+          "version": "1.41.2"
+        }
+      ]
+    },
+    "component": {
+      "bom-ref": "af63bd4c8601b7f1",
+      "type": "file",
+      "name": "boring.notch",
+      "version": "4849de3"
+    }
+  },
+  "components": [
+    {
+      "bom-ref": "pkg:swift/github.com/ChimeHQ/AsyncXPCConnection/asyncxpcconnection@1.3.0?package-id=1321c20436fd58f0",
+      "type": "library",
+      "name": "asyncxpcconnection",
+      "version": "1.3.0",
+      "cpe": "cpe:2.3:a:asyncxpcconnection:asyncxpcconnection:1.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/ChimeHQ/AsyncXPCConnection/asyncxpcconnection@1.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/sindresorhus/Defaults/defaults@9.0.6?package-id=6f8b3471766ed754",
+      "type": "library",
+      "name": "defaults",
+      "version": "9.0.6",
+      "cpe": "cpe:2.3:a:defaults:defaults:9.0.6:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/sindresorhus/Defaults/defaults@9.0.6",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/sindresorhus/KeyboardShortcuts/keyboardshortcuts@2.4.0?package-id=084454ce59f5349d",
+      "type": "library",
+      "name": "keyboardshortcuts",
+      "version": "2.4.0",
+      "cpe": "cpe:2.3:a:keyboardshortcuts:keyboardshortcuts:2.4.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/sindresorhus/KeyboardShortcuts/keyboardshortcuts@2.4.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/sindresorhus/LaunchAtLogin-Modern/launchatlogin-modern@1.1.0?package-id=def789eaf3a8d1aa",
+      "type": "library",
+      "name": "launchatlogin-modern",
+      "version": "1.1.0",
+      "cpe": "cpe:2.3:a:launchatlogin-modern:launchatlogin-modern:1.1.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/sindresorhus/LaunchAtLogin-Modern/launchatlogin-modern@1.1.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:launchatlogin-modern:launchatlogin_modern:1.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:launchatlogin_modern:launchatlogin-modern:1.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:launchatlogin_modern:launchatlogin_modern:1.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:launchatlogin:launchatlogin-modern:1.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:launchatlogin:launchatlogin_modern:1.1.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/airbnb/lottie-spm.git/lottie-spm@4.5.2?package-id=ecc4137bf93d2c49",
+      "type": "library",
+      "name": "lottie-spm",
+      "version": "4.5.2",
+      "cpe": "cpe:2.3:a:lottie-spm:lottie-spm:4.5.2:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/airbnb/lottie-spm.git/lottie-spm@4.5.2",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lottie-spm:lottie_spm:4.5.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lottie_spm:lottie-spm:4.5.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lottie_spm:lottie_spm:4.5.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lottie:lottie-spm:4.5.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:lottie:lottie_spm:4.5.2:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/TheBoredTeam/MacroVisionKit/macrovisionkit@0.2.0?package-id=07c010d4cfbd92a5",
+      "type": "library",
+      "name": "macrovisionkit",
+      "version": "0.2.0",
+      "cpe": "cpe:2.3:a:macrovisionkit:macrovisionkit:0.2.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/TheBoredTeam/MacroVisionKit/macrovisionkit@0.2.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/EmergeTools/Pow/pow@1.0.5?package-id=39fda1224b318ce7",
+      "type": "library",
+      "name": "pow",
+      "version": "1.0.5",
+      "cpe": "cpe:2.3:a:pow:pow:1.0.5:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/EmergeTools/Pow/pow@1.0.5",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/Lakr233/SkyLightWindow/skylightwindow@1.0.0?package-id=6f93a81f90234325",
+      "type": "library",
+      "name": "skylightwindow",
+      "version": "1.0.0",
+      "cpe": "cpe:2.3:a:skylightwindow:skylightwindow:1.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/Lakr233/SkyLightWindow/skylightwindow@1.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/sparkle-project/Sparkle/sparkle@2.9.1?package-id=268df5f403e3feee",
+      "type": "library",
+      "name": "sparkle",
+      "version": "2.9.1",
+      "cpe": "cpe:2.3:a:sparkle:sparkle:2.9.1:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/sparkle-project/Sparkle/sparkle@2.9.1",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/apple/swift-collections.git/swift-collections@1.3.0?package-id=d8d4924e5f14ff81",
+      "type": "library",
+      "name": "swift-collections",
+      "version": "1.3.0",
+      "cpe": "cpe:2.3:a:swift-collections:swift-collections:1.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/apple/swift-collections.git/swift-collections@1.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift-collections:swift_collections:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift_collections:swift-collections:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift_collections:swift_collections:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift:swift-collections:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift:swift_collections:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/swiftlang/swift-syntax/swift-syntax@602.0.0?package-id=94dc9ae796bb603f",
+      "type": "library",
+      "name": "swift-syntax",
+      "version": "602.0.0",
+      "cpe": "cpe:2.3:a:swift-syntax:swift-syntax:602.0.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/swiftlang/swift-syntax/swift-syntax@602.0.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift-syntax:swift_syntax:602.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift_syntax:swift-syntax:602.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift_syntax:swift_syntax:602.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift:swift-syntax:602.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swift:swift_syntax:602.0.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:swift/github.com/siteline/swiftui-introspect/swiftui-introspect@1.3.0?package-id=33656b1b8e54958c",
+      "type": "library",
+      "name": "swiftui-introspect",
+      "version": "1.3.0",
+      "cpe": "cpe:2.3:a:swiftui-introspect:swiftui-introspect:1.3.0:*:*:*:*:*:*:*",
+      "purl": "pkg:swift/github.com/siteline/swiftui-introspect/swiftui-introspect@1.3.0",
+      "properties": [
+        {
+          "name": "syft:package:foundBy",
+          "value": "swift-package-manager-cataloger"
+        },
+        {
+          "name": "syft:package:language",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:type",
+          "value": "swift"
+        },
+        {
+          "name": "syft:package:metadataType",
+          "value": "swift-package-manager-lock-entry"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swiftui-introspect:swiftui_introspect:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swiftui_introspect:swiftui-introspect:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swiftui_introspect:swiftui_introspect:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swiftui:swiftui-introspect:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:cpe23",
+          "value": "cpe:2.3:a:swiftui:swiftui_introspect:1.3.0:*:*:*:*:*:*:*"
+        },
+        {
+          "name": "syft:location:0:path",
+          "value": "/boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved"
+        }
+      ]
+    },
+    {
+      "bom-ref": "a102b1da4abcd4a7",
+      "type": "file",
+      "name": "boringNotch.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved",
+      "hashes": [
+        {
+          "alg": "SHA-1",
+          "content": "ecb5318e77803f5f6d9c8bc2c48a0b257daefa74"
+        },
+        {
+          "alg": "SHA-256",
+          "content": "d46e5e82b941f3028aa304f8fea545ddf5cbfcf711627743308902e79efde647"
+        }
+      ]
+    },
+    {
+      "bom-ref": "pkg:github/ungive/mediaremote-adapter@dc3ff1740e2035a2490ec67d3b33322449af780a",
+      "type": "library",
+      "name": "mediaremote-adapter",
+      "version": "dc3ff1740e2035a2490ec67d3b33322449af780a",
+      "purl": "pkg:github/ungive/mediaremote-adapter@dc3ff1740e2035a2490ec67d3b33322449af780a",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ],
+      "externalReferences": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/ungive/mediaremote-adapter"
+        }
+      ],
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "8f633a791e4ad70f4cf523b516c38b9e1a006ae796b097ffea9baa30f7f658b8"
+        }
+      ],
+      "properties": [
+        {
+          "name": "boring.notch:artifact:MediaRemoteAdapter.framework",
+          "value": "8f633a791e4ad70f4cf523b516c38b9e1a006ae796b097ffea9baa30f7f658b8"
+        },
+        {
+          "name": "boring.notch:artifact:MediaRemoteAdapterTestClient",
+          "value": "2c3821fe701881ba93a290214dcc50e8c7f20c66c4235e69f461b227861831c8"
+        },
+        {
+          "name": "boring.notch:artifact:mediaremote-adapter.pl",
+          "value": "9ac5ed4532ad78431a85dd30e353efeca84391c4b84c760de74399c09cc2f2ca"
+        },
+        {
+          "name": "boring.notch:build",
+          "value": "rebuilt from source with CMake (Release, x86_64+arm64), ad-hoc signed"
+        },
+        {
+          "name": "boring.notch:note",
+          "value": "Xcode re-signs on embed; code is identical once signatures are stripped"
+        }
+      ]
+    }
+  ]
+}
